@@ -1,6 +1,6 @@
 # 🏬 Enterprise Retail Network Design & Implementation
 
-## 📌 Overview
+## 📌 Project Overview
 This project demonstrates the design and implementation of a **secure, scalable, and highly available enterprise retail network**.  
 It simulates a real-world retail company with **multiple branches**, **central headquarters**, and **core IT services** such as DHCP, DNS, FTP, Email, and Internet access.
 
