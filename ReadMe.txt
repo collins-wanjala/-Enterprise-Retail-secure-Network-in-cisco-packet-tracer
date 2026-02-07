@@ -1,0 +1,94 @@
+# 🏬 Enterprise Retail Network Design & Implementation
+
+## 📌 Overview
+This project demonstrates the design and implementation of a **secure, scalable, and highly available enterprise retail network**.  
+It simulates a real-world retail company with **multiple branches**, **central headquarters**, and **core IT services** such as DHCP, DNS, FTP, Email, and Internet access.
+
+The lab is designed for **learning, testing, and troubleshooting enterprise networking concepts** using practical scenarios.
+
+---
+
+## 🎯 Project Objectives
+- Design a **hierarchical enterprise network** (Core, Distribution, Access)
+- Implement **VLANs** to separate departments
+- Configure **dynamic routing** for inter-branch communication
+- Provide **centralized network services**
+- Secure the network using **ACLs and firewall concepts**
+- Enable **NAT/PAT** for Internet access
+- Practice **real-world troubleshooting**
+
+---
+
+## 🏢 Network Environment
+The retail company consists of:
+
+- **Headquarters (HQ)**
+- **Branch Stores**
+- **Data Center**
+- **Internet Service Provider (ISP)**
+
+Each branch supports:
+- Point of Sale (POS)
+- Inventory systems
+- Staff PCs
+- Guest Wi-Fi (isolated)
+
+---
+
+## 🧱 Network Architecture
+### Layers
+- **Core Layer** – High-speed routing & redundancy
+- **Distribution Layer** – Policy enforcement and inter-VLAN routing
+- **Access Layer** – End-user connectivity
+
+### VLAN Design
+| VLAN ID | Department        |
+|-------|-------------------|
+| 10    | Management        |
+| 20    | Sales / POS       |
+| 30    | Inventory         |
+| 40    | IT / Admin        |
+| 50    | Guest Wi-Fi       |
+
+---
+
+## ⚙️ Technologies Used
+- Cisco Packet Tracer / GNS3
+- Cisco Routers & Switches
+- Static & Dynamic Routing (OSPF / EIGRP)
+- VLANs & Trunking (802.1Q)
+- DHCP & DHCP Relay
+- DNS, FTP, Email Servers
+- NAT & PAT
+- Access Control Lists (ACLs)
+- Basic Firewall Concepts
+
+---
+
+## 🌐 IP Addressing Scheme
+- Private IP addressing (RFC 1918)
+- Separate subnet per VLAN
+- Centralized DHCP server
+- Static IPs for infrastructure devices
+
+---
+
+## 🔐 Security Implementation
+- Standard & Extended ACLs
+- VLAN isolation
+- Guest network restricted from internal resources
+- NAT overload for Internet access
+- Management access secured (SSH)
+
+---
+
+## 🧪 Lab Scenarios
+- Inter-VLAN communication issues
+- DHCP failure troubleshooting
+- DNS resolution problems
+- Internet access failure (NAT/PAT)
+- Branch-to-HQ connectivity issues
+
+---
+
+## 📁 Project Structure
